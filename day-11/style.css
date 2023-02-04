@@ -1,0 +1,75 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* .green{
+    height: 150px;
+    width: 300px;
+    background-color: green;
+    margin: 50px 0 0 100px;
+    position: relative;
+    
+}
+
+.red{
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    top: 35px;
+    left: 110px;
+}
+
+.bash{
+    height: 420px;
+    width: 7px;
+    background-color: black;
+    position: absolute;
+    top: -20px;
+    
+}
+.mati{
+    background-color: aqua;
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    left: -25px;
+    top: 400px;
+}
+
+.mati-2{
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: -40px;
+    top: 440px;
+    
+}
+  */
+ 
+.green{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    position: absolute;
+    left: 100px;
+    top:50px;  
+}
+
+.green:hover{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border: 10px solid black;
+    transition-duration: 5s;
+    transform: rotate(360deg); 
+  
+    transition-timing-function: ease;
+    
+    
+}
